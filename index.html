@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <script src="./index.js" defer></script>
+    <script src="./FetchData.js " defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main_container">
+      <header>
+        <div class="logo">
+          <img
+            src="https://deepthought.education/assets/images/logo/logo.svg"
+            alt=""
+          />
+        </div>
+        <div class="nav_items">
+          <li class="nav_item df bg">
+            <i class="fa-solid fa-house-chimney"></i>
+          </li>
+          <li class="nav_item df bg">
+            <i class="fa-solid fa-screwdriver-wrench"></i>
+          </li>
+          <li class="nav_item df bg"><i class="fa-solid fa-bell ring"></i></li>
+          <li class="nav_item">
+            <img
+              src="https://mymodernmet.com/wp/wp-content/uploads/2019/09/100k-ai-faces-3.jpg"
+              alt=""
+            />
+          </li>
+          <li class="nav_item dot">
+            <span>.</span>
+            <span>.</span>
+            <span>.</span>
+          </li>
+        </div>
+      </header>
+      <div class="content_container">
+        <div class="left_side">
+          <div class="left_heading"></div>
+          <div class="left_content">
+            <button id="menu">1</button>
+          </div>
+        </div>
+        <div class="left_side show_conten hide">
+          <div class="left_heading">
+            <span>Journey Board</span>
+          </div>
+          <div class="left_content">
+            <li>Explore the world of management</li>
+            <ul>
+              <li>Technical Project Management</li>
+              <li>Threadbuild</li>
+              <li>Structure your pointers</li>
+              <li>4SA Method</li>
+            </ul>
+          </div>
+        </div>
+        <div class="content">
+          <div class="content_heading_box">
+            <p class="content_heading">Technical Project Management</p>
+            <button>Submit Task</button>
+          </div>
+
+          <div class="card_box_wrappper">
+            <div class="box_container">
+              <div class="card card1"></div>
+              <div class="card">
+                <div class="collaps_button" id="collaps_button1">
+                  <i class="fa-solid fa-angle-down" id="down_arrow1"></i>
+                  <i
+                    class="fa-sharp fa-solid fa-angle-up hide"
+                    id="up_arrow1"
+                  ></i>
+                  <span>Thread A</span>
+                </div>
+                <div class="collapse_content hide" id="collaps_content1">
+                  <div class="input_box_wrapper">
+                    <div class="text_box">
+                      <label for="">Sub thread 1</label>
+                      <textarea
+                        name=""
+                        id=""
+                        placeholder="Enter Text here"
+                      ></textarea>
+                      <div class="icons">
+                        <img src="./assets/bulb.png" alt="" />
+                        <img src="./assets/message.png" alt="" />
+                        <img src="./assets/qst.png" alt="" />
+                        <img src="./assets/flower.png" alt="" />
+                      </div>
+                    </div>
+
+                    <div class="text_box">
+                      <label for="">Sub Interpretation 1</label>
+                      <textarea
+                        name=""
+                        id=""
+                        placeholder="Enter Text here"
+                      ></textarea>
+                      <div class="selection">
+                        <button>
+                          <span>Select Categ</span>
+                          <i class="fa-solid fa-angle-down"></i>
+                        </button>
+                        <button>
+                          <span> Select Process</span>
+                          <i class="fa-solid fa-angle-down"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="sub_button"><span>+</span> Sub-thread</div>
+                  <div class="summary_thread text_box">
+                    <label for="">Summary for Thread A</label>
+                    <textarea name="" placeholder="Enter Text Here"></textarea>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="box_container">
+              <div class="card">
+                <div class="card3_content">
+                  <h5>Title</h5>
+                  <input type="text" />
+                  <h5>Content</h5>
+                  <div class="content_typing_box">
+                    <div class="switches">
+                      <ul class="switch_text">
+                        <li>File</li>
+                        <li>Edit</li>
+                        <li>view</li>
+                        <li>Insert</li>
+                        <li>Format</li>
+                        <li>Tools</li>
+                        <li>Table</li>
+                        <li>Help</li>
+                      </ul>
+                      <ul class="switch_icons">
+                        <li>
+                          <img
+                            src="./assets/arrow-curve-left-right.png"
+                            alt=""
+                          />
+                        </li>
+
+                        <li>
+                          <img
+                            src="./assets/arrow-curve-left-down.png"
+                            alt=""
+                          />
+                        </li>
+                        <li>
+                          <img src="./assets/arrow-expand-02.png" alt="" />
+                        </li>
+                        <li><input type="text" placeholder="Pragraph" /></li>
+                        <li class="dot_list">
+                          <span>.</span>
+                          <span>.</span>
+                          <span>.</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card card4"></div>
+            </div>
+          </div>
+        </div>
+        <div class="right_side">
+          <div class="right_heading">
+            <img src="./assets/cross.png" alt="" />
+            <span>N o t i c e </span>
+            <span class="board">B o a r d</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer_icon">
+        <li><img src="./assets/question-mark (2) 1.png" alt="" /></li>
+        <li><img src="./assets/meeting 1.png" alt="" /></li>
+        <li><img src="./assets/schedule (1) 1.png" alt="" /></li>
+      </div>
+    </div>
+  </body>
+</html>
